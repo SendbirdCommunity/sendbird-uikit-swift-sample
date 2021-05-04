@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E18D465B2072908CB14ECED /* Pods_sendbirduikit_swiftui_sendbirduikit_swiftuiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFB543A192B28F375903792 /* Pods_sendbirduikit_swiftui_sendbirduikit_swiftuiUITests.framework */; };
+		7195963E2628FF5400AC6890 /* sendbirduikit_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195963D2628FF5400AC6890 /* sendbirduikit_swiftuiApp.swift */; };
+		719596402628FF5400AC6890 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195963F2628FF5400AC6890 /* ContentView.swift */; };
+		719596422628FF5500AC6890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719596412628FF5500AC6890 /* Assets.xcassets */; };
+		719596452628FF5500AC6890 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719596442628FF5500AC6890 /* Preview Assets.xcassets */; };
+		719596502628FF5500AC6890 /* sendbirduikit_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195964F2628FF5500AC6890 /* sendbirduikit_swiftuiTests.swift */; };
+		7195965B2628FF5500AC6890 /* sendbirduikit_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7195965A2628FF5500AC6890 /* sendbirduikit_swiftuiUITests.swift */; };
+		719596772629001000AC6890 /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719596762629001000AC6890 /* ChannelListView.swift */; };
+		80CDFEFBD066E93304BB08AF /* Pods_sendbirduikit_swiftui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7A7D27E7A7839060E52033 /* Pods_sendbirduikit_swiftui.framework */; };
+		A2C653C295E4258441CB11BF /* Pods_sendbirduikit_swiftuiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B95B83C318F559D90A2432 /* Pods_sendbirduikit_swiftuiTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7195964C2628FF5500AC6890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719596322628FF5400AC6890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719596392628FF5400AC6890;
+			remoteInfo = sendbirduikit_swiftui;
+		};
+		719596572628FF5500AC6890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719596322628FF5400AC6890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719596392628FF5400AC6890;
+			remoteInfo = sendbirduikit_swiftui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061080D6C0EB0271E76A42EA /* Pods-sendbirduikit_swiftuiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sendbirduikit_swiftuiTests.release.xcconfig"; path = "Target Support Files/Pods-sendbirduikit_swiftuiTests/Pods-sendbirduikit_swiftuiTests.release.xcconfig"; sourceTree = "<group>"; };
+		39EF17A616244FF3CC077DB6 /* Pods-sendbirduikit_swiftui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sendbirduikit_swiftui.debug.xcconfig"; path = "Target Support Files/Pods-sendbirduikit_swiftui/Pods-sendbirduikit_swiftui.debug.xcconfig"; sourceTree = "<group>"; };
+		6C6A33A01ECD5EB35E4CD634 /* Pods-sendbirduikit_swiftuiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sendbirduikit_swiftuiTests.debug.xcconfig"; path = "Target Support Files/Pods-sendbirduikit_swiftuiTests/Pods-sendbirduikit_swiftuiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7195963A2628FF5400AC6890 /* sendbirduikit_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sendbirduikit_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7195963D2628FF5400AC6890 /* sendbirduikit_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendbirduikit_swiftuiApp.swift; sourceTree = "<group>"; };
+		7195963F2628FF5400AC6890 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		719596412628FF5500AC6890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		719596442628FF5500AC6890 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		719596462628FF5500AC6890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7195964B2628FF5500AC6890 /* sendbirduikit_swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sendbirduikit_swiftuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7195964F2628FF5500AC6890 /* sendbirduikit_swiftuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendbirduikit_swiftuiTests.swift; sourceTree = "<group>"; };
+		719596512628FF5500AC6890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719596562628FF5500AC6890 /* sendbirduikit_swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sendbirduikit_swiftuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7195965A2628FF5500AC6890 /* sendbirduikit_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendbirduikit_swiftuiUITests.swift; sourceTree = "<group>"; };
+		7195965C2628FF5500AC6890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719596762629001000AC6890 /* ChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
+		7CFB543A192B28F375903792 /* Pods_sendbirduikit_swiftui_sendbirduikit_swiftuiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sendbirduikit_swiftui_sendbirduikit_swiftuiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8015BCBBA75959842793BA7E /* Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests.debug.xcconfig"; path = "Target Support Files/Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests/Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		908FF96B0EE2636A5F23DC29 /* Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests.release.xcconfig"; path = "Target Support Files/Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests/Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3B95B83C318F559D90A2432 /* Pods_sendbirduikit_swiftuiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sendbirduikit_swiftuiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7A7D27E7A7839060E52033 /* Pods_sendbirduikit_swiftui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sendbirduikit_swiftui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4385A27092941591EEECD8 /* Pods-sendbirduikit_swiftui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sendbirduikit_swiftui.release.xcconfig"; path = "Target Support Files/Pods-sendbirduikit_swiftui/Pods-sendbirduikit_swiftui.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719596372628FF5400AC6890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CDFEFBD066E93304BB08AF /* Pods_sendbirduikit_swiftui.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719596482628FF5500AC6890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C653C295E4258441CB11BF /* Pods_sendbirduikit_swiftuiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719596532628FF5500AC6890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E18D465B2072908CB14ECED /* Pods_sendbirduikit_swiftui_sendbirduikit_swiftuiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EFB57CE1E43AB9E1423E698 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39EF17A616244FF3CC077DB6 /* Pods-sendbirduikit_swiftui.debug.xcconfig */,
+				DD4385A27092941591EEECD8 /* Pods-sendbirduikit_swiftui.release.xcconfig */,
+				8015BCBBA75959842793BA7E /* Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests.debug.xcconfig */,
+				908FF96B0EE2636A5F23DC29 /* Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests.release.xcconfig */,
+				6C6A33A01ECD5EB35E4CD634 /* Pods-sendbirduikit_swiftuiTests.debug.xcconfig */,
+				061080D6C0EB0271E76A42EA /* Pods-sendbirduikit_swiftuiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		68A259A014D75635B842F224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB7A7D27E7A7839060E52033 /* Pods_sendbirduikit_swiftui.framework */,
+				7CFB543A192B28F375903792 /* Pods_sendbirduikit_swiftui_sendbirduikit_swiftuiUITests.framework */,
+				A3B95B83C318F559D90A2432 /* Pods_sendbirduikit_swiftuiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		719596312628FF5400AC6890 = {
+			isa = PBXGroup;
+			children = (
+				7195963C2628FF5400AC6890 /* sendbirduikit_swiftui */,
+				7195964E2628FF5500AC6890 /* sendbirduikit_swiftuiTests */,
+				719596592628FF5500AC6890 /* sendbirduikit_swiftuiUITests */,
+				7195963B2628FF5400AC6890 /* Products */,
+				3EFB57CE1E43AB9E1423E698 /* Pods */,
+				68A259A014D75635B842F224 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7195963B2628FF5400AC6890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7195963A2628FF5400AC6890 /* sendbirduikit_swiftui.app */,
+				7195964B2628FF5500AC6890 /* sendbirduikit_swiftuiTests.xctest */,
+				719596562628FF5500AC6890 /* sendbirduikit_swiftuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7195963C2628FF5400AC6890 /* sendbirduikit_swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				7195963D2628FF5400AC6890 /* sendbirduikit_swiftuiApp.swift */,
+				7195963F2628FF5400AC6890 /* ContentView.swift */,
+				719596412628FF5500AC6890 /* Assets.xcassets */,
+				719596462628FF5500AC6890 /* Info.plist */,
+				719596432628FF5500AC6890 /* Preview Content */,
+				719596762629001000AC6890 /* ChannelListView.swift */,
+			);
+			path = sendbirduikit_swiftui;
+			sourceTree = "<group>";
+		};
+		719596432628FF5500AC6890 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				719596442628FF5500AC6890 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7195964E2628FF5500AC6890 /* sendbirduikit_swiftuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7195964F2628FF5500AC6890 /* sendbirduikit_swiftuiTests.swift */,
+				719596512628FF5500AC6890 /* Info.plist */,
+			);
+			path = sendbirduikit_swiftuiTests;
+			sourceTree = "<group>";
+		};
+		719596592628FF5500AC6890 /* sendbirduikit_swiftuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7195965A2628FF5500AC6890 /* sendbirduikit_swiftuiUITests.swift */,
+				7195965C2628FF5500AC6890 /* Info.plist */,
+			);
+			path = sendbirduikit_swiftuiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719596392628FF5400AC6890 /* sendbirduikit_swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7195965F2628FF5500AC6890 /* Build configuration list for PBXNativeTarget "sendbirduikit_swiftui" */;
+			buildPhases = (
+				B1B0B22E72875B1DF81B31B1 /* [CP] Check Pods Manifest.lock */,
+				719596362628FF5400AC6890 /* Sources */,
+				719596372628FF5400AC6890 /* Frameworks */,
+				719596382628FF5400AC6890 /* Resources */,
+				B515CE998BC1259C7A18DA78 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sendbirduikit_swiftui;
+			productName = sendbirduikit_swiftui;
+			productReference = 7195963A2628FF5400AC6890 /* sendbirduikit_swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7195964A2628FF5500AC6890 /* sendbirduikit_swiftuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719596622628FF5500AC6890 /* Build configuration list for PBXNativeTarget "sendbirduikit_swiftuiTests" */;
+			buildPhases = (
+				4C0C5C8DF0A3B5CBF141DA36 /* [CP] Check Pods Manifest.lock */,
+				719596472628FF5500AC6890 /* Sources */,
+				719596482628FF5500AC6890 /* Frameworks */,
+				719596492628FF5500AC6890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7195964D2628FF5500AC6890 /* PBXTargetDependency */,
+			);
+			name = sendbirduikit_swiftuiTests;
+			productName = sendbirduikit_swiftuiTests;
+			productReference = 7195964B2628FF5500AC6890 /* sendbirduikit_swiftuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		719596552628FF5500AC6890 /* sendbirduikit_swiftuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719596652628FF5500AC6890 /* Build configuration list for PBXNativeTarget "sendbirduikit_swiftuiUITests" */;
+			buildPhases = (
+				559367EA7FC39038A6414FA7 /* [CP] Check Pods Manifest.lock */,
+				719596522628FF5500AC6890 /* Sources */,
+				719596532628FF5500AC6890 /* Frameworks */,
+				719596542628FF5500AC6890 /* Resources */,
+				8CDC5284F3AEEC23E4E661AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719596582628FF5500AC6890 /* PBXTargetDependency */,
+			);
+			name = sendbirduikit_swiftuiUITests;
+			productName = sendbirduikit_swiftuiUITests;
+			productReference = 719596562628FF5500AC6890 /* sendbirduikit_swiftuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719596322628FF5400AC6890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					719596392628FF5400AC6890 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7195964A2628FF5500AC6890 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 719596392628FF5400AC6890;
+					};
+					719596552628FF5500AC6890 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 719596392628FF5400AC6890;
+					};
+				};
+			};
+			buildConfigurationList = 719596352628FF5400AC6890 /* Build configuration list for PBXProject "sendbirduikit_swiftui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 719596312628FF5400AC6890;
+			productRefGroup = 7195963B2628FF5400AC6890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719596392628FF5400AC6890 /* sendbirduikit_swiftui */,
+				7195964A2628FF5500AC6890 /* sendbirduikit_swiftuiTests */,
+				719596552628FF5500AC6890 /* sendbirduikit_swiftuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719596382628FF5400AC6890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719596452628FF5500AC6890 /* Preview Assets.xcassets in Resources */,
+				719596422628FF5500AC6890 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719596492628FF5500AC6890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719596542628FF5500AC6890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C0C5C8DF0A3B5CBF141DA36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sendbirduikit_swiftuiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		559367EA7FC39038A6414FA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CDC5284F3AEEC23E4E661AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests/Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests/Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests/Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B0B22E72875B1DF81B31B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sendbirduikit_swiftui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B515CE998BC1259C7A18DA78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sendbirduikit_swiftui/Pods-sendbirduikit_swiftui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sendbirduikit_swiftui/Pods-sendbirduikit_swiftui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sendbirduikit_swiftui/Pods-sendbirduikit_swiftui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719596362628FF5400AC6890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719596402628FF5400AC6890 /* ContentView.swift in Sources */,
+				7195963E2628FF5400AC6890 /* sendbirduikit_swiftuiApp.swift in Sources */,
+				719596772629001000AC6890 /* ChannelListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719596472628FF5500AC6890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719596502628FF5500AC6890 /* sendbirduikit_swiftuiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719596522628FF5500AC6890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7195965B2628FF5500AC6890 /* sendbirduikit_swiftuiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7195964D2628FF5500AC6890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719596392628FF5400AC6890 /* sendbirduikit_swiftui */;
+			targetProxy = 7195964C2628FF5500AC6890 /* PBXContainerItemProxy */;
+		};
+		719596582628FF5500AC6890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719596392628FF5400AC6890 /* sendbirduikit_swiftui */;
+			targetProxy = 719596572628FF5500AC6890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7195965D2628FF5500AC6890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7195965E2628FF5500AC6890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		719596602628FF5500AC6890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EF17A616244FF3CC077DB6 /* Pods-sendbirduikit_swiftui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sendbirduikit_swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 98C9JXLB72;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sendbirduikit_swiftui/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sendbird.sendbirduikit-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		719596612628FF5500AC6890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4385A27092941591EEECD8 /* Pods-sendbirduikit_swiftui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sendbirduikit_swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 98C9JXLB72;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sendbirduikit_swiftui/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sendbird.sendbirduikit-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		719596632628FF5500AC6890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6A33A01ECD5EB35E4CD634 /* Pods-sendbirduikit_swiftuiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98C9JXLB72;
+				INFOPLIST_FILE = sendbirduikit_swiftuiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sendbird.sendbirduikit-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sendbirduikit_swiftui.app/sendbirduikit_swiftui";
+			};
+			name = Debug;
+		};
+		719596642628FF5500AC6890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061080D6C0EB0271E76A42EA /* Pods-sendbirduikit_swiftuiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98C9JXLB72;
+				INFOPLIST_FILE = sendbirduikit_swiftuiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sendbird.sendbirduikit-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sendbirduikit_swiftui.app/sendbirduikit_swiftui";
+			};
+			name = Release;
+		};
+		719596662628FF5500AC6890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8015BCBBA75959842793BA7E /* Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98C9JXLB72;
+				INFOPLIST_FILE = sendbirduikit_swiftuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sendbird.sendbirduikit-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sendbirduikit_swiftui;
+			};
+			name = Debug;
+		};
+		719596672628FF5500AC6890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908FF96B0EE2636A5F23DC29 /* Pods-sendbirduikit_swiftui-sendbirduikit_swiftuiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98C9JXLB72;
+				INFOPLIST_FILE = sendbirduikit_swiftuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sendbird.sendbirduikit-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sendbirduikit_swiftui;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719596352628FF5400AC6890 /* Build configuration list for PBXProject "sendbirduikit_swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7195965D2628FF5500AC6890 /* Debug */,
+				7195965E2628FF5500AC6890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7195965F2628FF5500AC6890 /* Build configuration list for PBXNativeTarget "sendbirduikit_swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719596602628FF5500AC6890 /* Debug */,
+				719596612628FF5500AC6890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719596622628FF5500AC6890 /* Build configuration list for PBXNativeTarget "sendbirduikit_swiftuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719596632628FF5500AC6890 /* Debug */,
+				719596642628FF5500AC6890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719596652628FF5500AC6890 /* Build configuration list for PBXNativeTarget "sendbirduikit_swiftuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719596662628FF5500AC6890 /* Debug */,
+				719596672628FF5500AC6890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719596322628FF5400AC6890 /* Project object */;
+}
