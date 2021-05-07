@@ -9,7 +9,7 @@ import SwiftUI
 import SendBirdUIKit
 
 struct ChannelListView : View {
-    
+
     var body: some View {
         SendbirdChannelListContainer()
     }

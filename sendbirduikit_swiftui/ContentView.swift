@@ -13,15 +13,15 @@ class ViewModel : ObservableObject {
 
     init() {
         
+        // Initialize the SendbirdSDK with your application id,
+        // also found in the Sendbird dashboard
+        SBDMain.initWithApplicationId("YOUR_APPLICATION_ID")
+        
         // After your user has authenticated, use a string
         // identifier unique to that user to pass to Sendbird.
         // To keep things simple we're using a user id
         // we created from the Sendbird dashboard
-        let authenticatedUserId = "awesome_user"
-        
-        // Initialize the SendbirdSDK with your application id,
-        // also found in the Sendbird dashboard
-        SBDMain.initWithApplicationId("your_awesome_app_id")
+        let authenticatedUserId = "USER_ID"
         
         // Connect with Sendbird using just the user id
         SBDMain.connect(withUserId: authenticatedUserId, completionHandler:  { [weak self] (user, error) in
