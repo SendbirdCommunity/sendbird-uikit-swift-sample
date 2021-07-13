@@ -19,7 +19,7 @@ This sample app demonstrates how to integrate Sendbird's UIKit to a SwiftUI proj
 
 * An active Sendbird application with at least two users. See [this introductory video](https://www.youtube.com/watch?v=QCS0eyO2Q3U) for instructions on how to create a new application and users.
 
-* See the official [Sendbird UIKit for iOS](https://github.com/sendbird/sendbird-uikit-ios-sources) repo for current Xcode and iOS version requirements and instructions for adding the SDK dependency.
+* See the official [Sendbird UIKit for iOS](https://github.com/sendbird/sendbird-uikit-ios-sources?&utm_source=github&utm_medium=referral&utm_campaign=repo&utm_content=sendbird-uikit-swift-sample) repo for current Xcode and iOS version requirements and instructions for adding the SDK dependency.
 
 <br />
 
